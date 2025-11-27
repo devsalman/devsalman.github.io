@@ -1,3 +1,37 @@
-theme: jekyll-theme-minimal
-title: My Jekyll Site
-description: A simple and minimal Jekyll theme for blogging. 
+theme: jekyll-theme-minima
+title: Dr. DevSalman - Academic Portfolio
+description: College lecturer and researcher in software engineering, information retrieval, quality assurance, and blockchain technology.
+author:
+  name: Dr. DevSalman
+  email: your-email@university.edu
+
+# Site settings
+url: "https://devsalman.github.io"
+baseurl: ""
+
+# Navigation
+header_pages:
+  - index.md
+  - courses.md
+  - publications.md
+  - blog.md
+  - about.md
+  - contact.md
+
+# Footer
+social_links:
+  - platform: github
+    user_url: https://github.com/devsalman
+  - platform: linkedin
+    user_url: https://linkedin.com/in/devsalman
+  - platform: orcid
+    user_url: https://orcid.org/your-orcid
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# SEO settings
+lang: en
+locale: en_US

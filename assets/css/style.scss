@@ -1,0 +1,41 @@
+---
+---
+
+// Import theme styles
+@import "minima";
+
+// Import custom styles
+@import "custom";
+
+// Additional custom overrides
+.site-header {
+  border-top: 5px solid #3498db;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.page-content {
+  padding: 20px 0;
+}
+
+.post-title,
+.page-heading {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #3498db;
+  
+  &:hover {
+    color: #2980b9;
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 800px) {
+  .site-nav {
+    position: absolute;
+    top: 9px;
+    right: 15px;
+  }
+}

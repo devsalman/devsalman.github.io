@@ -1,0 +1,66 @@
+// Custom styles for DevSalman portfolio
+
+// Variables
+$primary-color: #2c3e50;
+$secondary-color: #3498db;
+$accent-color: #e74c3c;
+$text-color: #333;
+$light-bg: #ecf0f1;
+
+// Mixins
+@mixin transition($property: all, $duration: 0.3s, $timing: ease-in-out) {
+  transition: $property $duration $timing;
+}
+
+// Custom classes
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  @include transition(background-color);
+  
+  &.btn-primary {
+    background-color: $secondary-color;
+    color: white;
+    
+    &:hover {
+      background-color: darken($secondary-color, 10%);
+    }
+  }
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  @include transition(box-shadow);
+  
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+  
+  a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $primary-color;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    @include transition(background-color);
+    
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+}
