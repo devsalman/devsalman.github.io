@@ -1,4 +1,4 @@
-theme: jekyll-theme-minima
+remote_theme: jekyll/minima
 title: Dr. DevSalman - Academic Portfolio
 description: College lecturer and researcher in software engineering, information retrieval, quality assurance, and blockchain technology.
 author:
