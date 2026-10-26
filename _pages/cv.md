@@ -11,54 +11,25 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+
+| Degree | Program Studi | Institution | Graduated |
+|--------|---------------|-------------|-----------|
+| Magister Ilmu Komputer | Ilmu Komputer | Fakultas Ilmu Komputer, Universitas Indonesia | 2015 |
+| Sarjana Komputer | Sistem Informasi | Fakultas Ilmu Komputer, Universitas Indonesia | 2011 |
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+| Position | Institution | Year |
+|----------|-------------|------|
+| Wakil Ketua 1 Bidang Akademik | STT Terpadu Nurul Fikri | 2026 - Now |
+| Asisten Kepala Lembaga Penjaminan Mutu Internal | STT Terpadu Nurul Fikri | 2024 - 2025 |
+| Chief Technology Officer (CTO) | PT. Indonesia Juara Semester (nfjuara.id) | 2020 - 2024 |
+| Research and Development (RnD) | PT. Badr Interactive | 2017 - 2020 |
+| Software Developer (Web) | PT. Badr Interactive | 2015 - 2017 |
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
